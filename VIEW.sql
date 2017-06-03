@@ -4,12 +4,12 @@
 CREATE VIEW VIEW_name AS
 SELECT
 	column_name1
-    ,column_name2
-    ,column_name3	AS	column_name
-    ,One.column_name4
-    ,Two.column_name5
+   	,column_name2
+    	,column_name3	AS	column_name
+    	,One.column_name4
+   	,Two.column_name5
 FROM
-	TABLE_name1		AS 	One
+	TABLE_name1	AS 	One
 	,TABLE_name2	AS	Two
 WHERE
 	One.id = column_name1;
@@ -27,10 +27,10 @@ SELECT * FROM TABLE_name;
 ALTER VIEW VIEW_name AS
 SELECT
 	One.column_name1
-    ,Two.column_name2
+    	,Two.column_name2
 FROM
-	TABLE_name1		AS One
-    ,TABLE_name2	AS Two
+	TABLE_name1	AS One
+    	,TABLE_name2	AS Two
 WHERE
 	One.id = column_name2;
 	
