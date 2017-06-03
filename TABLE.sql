@@ -2,19 +2,19 @@
 
 #create テーブル名は基本的に半角英字で複数形にする(items,usersなど)
 CREATE TABLE TABLE_name (
-	column_name1	int				PRIMARY KEY AUTO_INCREMENT
-    ,column_name2	VARCHAR(10)		UNIQUE NOT NULL
-    ,column_name3	TIMESTAMP		NOT NULL
+	column_name1	int			PRIMARY KEY AUTO_INCREMENT
+   	,column_name2	VARCHAR(10)		UNIQUE NOT NULL
+	,column_name3	TIMESTAMP		NOT NULL
 );
 
 #PRIMARY KEY		レコードのキーになるカラムを定義
-#NOT NULL			必須カラムとして定義
-#UNIQUE				同テーブルの他レコードと重複できないことを定義
+#NOT NULL		必須カラムとして定義
+#UNIQUE			同テーブルの他レコードと重複できないことを定義
 
 #AUTO_INCREMENT		レコードを作成した時に自動的に数値をインクリメントする
 #VARCHAR(文字数)		文字列の上限値を()内で定義
-#TIMESTAMP			日付・時間を格納するカラム
-#BIT(1)				0か1のみ格納(boolean型と相性がいい)
+#TIMESTAMP		日付・時間を格納するカラム
+#BIT(1)			0か1のみ格納(boolean型と相性がいい)
 
 #テーブルの格納情報を表示するSQL文
 SELECT * FROM TABLE_name;
