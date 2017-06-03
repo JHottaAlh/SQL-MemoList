@@ -1,2 +1,0 @@
-# SQL-MemoList
-SQL(DATABASE/TABLE/VIEW/other...)
