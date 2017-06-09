@@ -48,3 +48,8 @@ ALTER TABLE TABLE_name ADD column_name1 column_definition;	#column_definitionは
 
 #TABLEのレコード(情報リスト)を全削除
 TRUNCATE TABLE TABLE_name;
+
+#情報を取得するときにソートする
+#DESC			降順
+#ASC			昇順
+SELECT * FROM TABLE_name order by column_name1 ASC, column_name2 desc;
