@@ -42,3 +42,9 @@ WHERE
 	id = 1;
 
 #idが1のレコードのcolumn_name1の情報を1に変更している
+
+#TABLEにカラムを追加
+ALTER TABLE TABLE_name ADD column_name1 column_definition;	#column_definitionはカラムの情報(int NOT NULL など)
+
+#TABLEのレコード(情報リスト)を全削除
+TRUNCATE TABLE TABLE_name;
