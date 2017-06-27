@@ -10,6 +10,7 @@ CREATE TABLE TABLE_name (
 #PRIMARY KEY		レコードのキーになるカラムを定義
 #NOT NULL		必須カラムとして定義
 #UNIQUE			同テーブルの他レコードと重複できないことを定義
+			なお、NULLであれば複数を許容する(Emptyは重複不可)
 
 #AUTO_INCREMENT		レコードを作成した時に自動的に数値をインクリメントする
 #VARCHAR(文字数)		文字列の上限値を()内で定義
